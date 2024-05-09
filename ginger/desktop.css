@@ -4396,10 +4396,10 @@ button.customily-personalize-button {
     width: auto;
 
     .variable-item-contents span.variable-item-span {
-        padding: 0 5px;
+        padding: 5px;
     }
 }
 
 .woo-variation-swatches .variable-items-wrapper .variable-item:not(.radio-variable-item).selected, .woo-variation-swatches .variable-items-wrapper .color-variable-item.variable-item.selected {
-    box-shadow: 0 0 0 2px #8D3811 !important
+    box-shadow: 0 0 0 2px #2D0C05 !important
 }
