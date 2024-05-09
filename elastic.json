@@ -1,0 +1,71 @@
+{
+    "query": {
+        "match_all": {},
+        "match": {
+            "account_number": "20"
+        },
+        "bool": {
+            "must": [
+                {
+                    "match": {
+                        "address": "mill"
+                    }
+                },
+                {
+                    "match": {
+                        "address": "lane"
+                    }
+                }
+            ],
+            "should": [
+                {
+                    "match": {
+                        "address": "mill"
+                    }
+                },
+                {
+                    "match": {
+                        "address": "lane"
+                    }
+                }
+            ]
+        }
+    },
+    "_source": ["account_number", "balance"],
+    "sort": [
+        {
+            "balance": {
+                "order": "asc"
+            }
+        }
+    ],
+    "size": 20,
+    "from": 5
+}
+
+
+{
+    "query": {
+        "bool": {
+            "must": [
+                {
+                    "match": {
+                        "address": "mill"
+                    }
+                },
+                {
+                    "match": {
+                        "address": "lane"
+                    }
+                }
+            ]
+        }
+    },
+    "sort": [
+        {
+            "balance": {
+                "order": "asc"
+            }
+        }
+    ]
+}

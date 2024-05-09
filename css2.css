@@ -1,0 +1,17 @@
+.jdgm-all-reviews-widget .jdgm-all-reviews__header {
+    .jdgm-widget-actions-wrapper a.jdgm-write-rev-link,
+    .jdgm-form-wrapper form.jdgm-form input.jdgm-submit-rev.btn_c {
+        padding: 10px 20px !important;
+        color: #fff;
+        background: var(--primary-color);
+        border-radius: 10px;
+    }
+
+    .jdgm-form-wrapper form.jdgm-form {
+        div input,
+        div textarea,
+        .jdgm-picture-fieldset__box-wrapper {
+            border-color: var(--primary-color);
+        }
+    }
+}

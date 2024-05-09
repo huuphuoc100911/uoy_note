@@ -1,0 +1,81 @@
+.uoymedia_omnisend {
+    .uoymedia_omnisend_form {
+        border-color: #1C4DA1 !important;
+
+        button.uoymedia_omnisend_form-btn {
+            background-color: #1C4DA1 !important;
+        }
+    }
+}
+
+.home-blogs .blogs-header,
+.home-delivery .head-trending,
+.home-trending .head-trending {
+    a.view-all {
+        color: #1C4DA1 !important;
+    }
+
+}
+
+.woocommerce-MyAccount-navigation li a {
+    color: #505261;
+}
+
+.woocommerce-MyAccount-navigation li.is-active {
+    filter: brightness(0) saturate(100%) invert(22%) sepia(30%) saturate(4474%) hue-rotate(205deg) brightness(94%) contrast(90%);
+    
+    a {
+        font-weight: 600;
+    }
+}
+
+.woocommerce-MyAccount-content {
+    .uoy-coin-top-content-left {
+        background: var(--primary-color);
+    }
+}
+
+.woocommerce-MyAccount-content {
+    .uoy-coin-top-content-left, .uoy-coin-top-content-right {
+        box-shadow: 4px 4px 10px #1C4DA1 !important;
+        
+        img {
+            filter: brightness(0) saturate(100%) invert(22%) sepia(30%) saturate(4474%) hue-rotate(205deg) brightness(94%) contrast(90%);
+        }
+    }
+}
+
+.home-about-us .about-us-content .item-first .btn-about-us {
+    background: #1C4DA1 !important;
+}
+.uoymedia_omnisend {
+    .formSubcribe.is-active.js-uoymedia_omnisend_pop {
+        top: 50% !important;
+        left: 50% !important;
+        translate: -50% -50%;
+    }
+}
+.rightbar-contact-us button {
+    background-color: var(--primary-color);
+}
+
+.sidebar_contact-us ul.menu li strong span {
+    color: var(--primary-color) !important;
+}
+
+.woocommerce-MyAccount-content {
+    #uoy-coin-birthday-form {
+        display: flex;
+        gap: 20px;
+
+        p#birthday_field_field {
+            flex-basis: 100%;
+        }
+
+        input[type="submit"] {
+            background: var(--primary-color);
+            color: #fff;
+            border-radius: 12px;
+        }
+    }
+}
