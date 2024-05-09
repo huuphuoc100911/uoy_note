@@ -10,32 +10,32 @@
     ]
 
     'query' => [
-        "bool": {
-            "must": [
-                {
-                    "match": {
-                        "address": "mill"
-                    }
-                },
-                {
-                    "match": {
-                        "address": "lane"
-                    }
-                }
+        'bool' => [
+            'must' => [
+                [
+                    'match' => [
+                        'address' => 'mill'
+                    ]
+                ],
+                [
+                    'match' => [
+                        'address' => 'lane'
+                    ]
+                ]
             ],
-            "should": [
-                {
-                    "match": {
-                        "address": "mill"
-                    }
-                },
-                {
-                    "match": {
-                        "address": "lane"
-                    }
-                }
+            'should' => [
+                [
+                    'match' => [
+                        'address' => 'mill'
+                    ]
+                ],
+                [
+                    'match' => [
+                        'address' => 'lane'
+                    ]
+                ]
             ]
-        }
+        ]
     ]
 
 ?>
